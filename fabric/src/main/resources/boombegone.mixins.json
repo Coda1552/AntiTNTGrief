@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "coda.boombegone.mixin.fabric",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8.5",
+  "client": [],
+  "mixins": [
+    "ExplosionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "LGPL-3.0"
+issueTrackerURL = "https://github.com/Coda1552/BoomBegone/issues"
+
+[[mods]]
+modId = "boombegone"
+version = "${version}"
+displayName = "Boom Begone"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/boombegone"
+logoFile = "icon.png"
+authors = "Coda"
+credits = "Alex Nijjar"
+description = "This mod stops explosions from breaking blocks"
+
+[[dependencies.boombegone]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.boombegone]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19,)"
+ordering = "NONE"
+side = "BOTH"
