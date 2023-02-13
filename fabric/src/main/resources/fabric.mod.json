@@ -24,7 +24,8 @@
     ]
   },
   "mixins": [
-    "boombegone.mixins.json"
+    "boombegone.mixins.json",
+    "boombegone-common.mixins.json"
   ],
   "depends": {
     "fabric": "*",
