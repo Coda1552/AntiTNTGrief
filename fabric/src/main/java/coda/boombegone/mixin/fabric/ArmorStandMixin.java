@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(ArmorStand.class)
-public class EntityMixin {
+public class ArmorStandMixin {
     @Inject(method = "ignoreExplosion", at = @At("HEAD"), cancellable = true)
     private void boombegone$ignoreExplosion(CallbackInfoReturnable<Boolean> cir) {
         cir.setReturnValue(true);
