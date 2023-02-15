@@ -28,7 +28,6 @@
     "boombegone-common.mixins.json"
   ],
   "depends": {
-    "fabric": "*",
     "minecraft": ">=1.19"
   }
 }
