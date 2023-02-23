@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "boombegone",
+  "version": "${version}",
+  "name": "Boom Begone",
+  "description": "This mod stops explosions from breaking blocks",
+  "authors": [
+    "Coda"
+  ],
+  "contributors": [
+    "Alex Nijjar"
+  ],
+  "contact": {
+    "website": "https://www.curseforge.com/minecraft/mc-mods/boom-begone",
+    "repo": "https://github.com/Coda1552/BoomBegone",
+    "issues": "https://github.com/Coda1552/BoomBegone/issues"
+  },
+  "license": "LGPL-3.0",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "coda.boombegone.fabric.BoomBegoneFabric"
+    ]
+  },
+  "mixins": [
+    "boombegone.mixins.json",
+    "boombegone-common.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.19"
+  }
+}
